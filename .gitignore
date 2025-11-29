@@ -1,2 +1,5 @@
 # ignore image dataset (link will be provided in README.md )
 data/Images
+data/TestImages.txt
+data/TrainImages.txt
+#
