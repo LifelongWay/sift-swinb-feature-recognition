@@ -78,7 +78,7 @@ def extract_swin_b_features(img_list_file_path, imgs_root_path):
     with open(img_list_file_path, 'r') as f:
         img_paths = [p.strip() for p in f if p.strip()]
         
-    img_paths = img_paths[0:30]
+    
     for img_path in img_paths:
 
         # reading only with img-extensions
